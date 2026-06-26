@@ -3,7 +3,9 @@
 A method for community detection in graphs using graphlet-based adjacency matrices combined with the FastGreedy algorithm.
 
 ## Overview
-For each graphlet orbit (G0–G8), the corresponding adjacency matrix is computed using [GRADCO]. Each graphlet matrix is normalized and added to the baseline adjacency matrix (G0). Community detection is then applied using the FastGreedy algorithm (via igraph), and results are evaluated using NMI, ARI, and Modularity.
+For each graphlet orbit (G0–G8), the corresponding adjacency matrix is computed using [GRADCO]. Each graphlet matrix is normalized and added to the baseline adjacency matrix (G0). Community detection is then applied using the FastGreedy algorithm (via igraph), and results are evaluated using NMI, ARI, and Modularity.<br>
+
+Example function adapted from code provided by Anastasiia Dziuba (2026).
 
 ## Project Structure
 ```
